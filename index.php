@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>REGISTRONS</title>
 </head>
 <body>
     <main class="main">
-        <h1 class="main_title">REGISTRONS</h1>
+        <h1 class="main__title">REGISTRONS</h1>
         <section class="main_infoContainer">
             <div class="main_infoContainer_left">
                 <h2 class="main_infoContainer_left__title">Résistance :</h2>
-                <p class="main_infoContainer_left__value"></p>
+                <p class="main_infoContainer_left__value">10MΩ</p>
             </div>
             <div class="main_infoContainer_right">
                 <h2 class="main_infoContainer_right__title">Tolérance :</h2>
-                <p class="main_infoContainer_right__value"></p>
+                <p class="main_infoContainer_right__value">10%</p>
             </div>
         </section>
         <section class="main_resistanceContainer">
@@ -84,8 +85,8 @@
             </select>
         </section>
         <section class="main_valueContainer">
-            <h2 class="main_choiseContainer__title">Valeur de la résistance :</h2>
-            <p class="main_choiseContainer__value"></p>
+            <h2 class="main_valueContainer__title">Valeur de la résistance :</h2>
+            <p class="main_valueContainer__value">4,7kΩ 5%</p>
         </section>
     </main>
 </body>
