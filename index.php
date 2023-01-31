@@ -9,7 +9,7 @@
 </head>
 <body>
     <main class="main">
-        <h1 class="main__title">REGISTRONS</h1>
+        <h1 class="main__title">RESISTRONS</h1>
         <section class="main_infoContainer">
             <div class="main_infoContainer_left">
                 <h2 class="main_infoContainer_left__title">Résistance :</h2>
