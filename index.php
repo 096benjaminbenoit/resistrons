@@ -19,12 +19,26 @@ $third = $_GET["color3"] ?? 0;
 $fourth = $_GET["color4"] ?? 0;
 
 // CALCULER LES VALEURS
+function ConvertDigits($value){
+    if ($value <= 999) {
+        echo ($value);
+    } else if ($value <= 999999) {
+        echo ($value / 1000)."K";
+    } else if ($value <= 999999999) {
+        echo ($value / 1000000)."M";
+    }else if ($value <= 999999999999) {
+        echo ($value / 100000000000)."G";
+    } else {
+        echo ($value / 100000000000)."G";
+    }
+};
 
 function calc($first,$second,$third,$fourth){
     $result=0;
     $result = ($first.$second)*$third;
-    echo($result."-Ω ".$fourth."-%");
+    echo(ConvertDigits($result)."-Ω ".$fourth."-%");
 };
+
 
 ?><!DOCTYPE html>
 <html lang="fr">
@@ -41,7 +55,7 @@ function calc($first,$second,$third,$fourth){
         <section class="main_infoContainer">
             <div class="main_infoContainer_left">
                 <h2 class="main_infoContainer_left__title">Résistance :</h2>
-                <p class="main_infoContainer_left__value"><?= $third?>Ω</p>
+                <p class="main_infoContainer_left__value"><?= ConvertDigits($third) ?>Ω</p>
             </div>
             <div class="main_infoContainer_right">
                 <h2 class="main_infoContainer_right__title">Tolérance :</h2>
@@ -116,6 +130,7 @@ function calc($first,$second,$third,$fourth){
             <p class="main_valueContainer__value"><?= calc($first, $second, $third, $fourth)?></p>
         </section>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
 
