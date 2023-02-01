@@ -1,4 +1,5 @@
 <?php
+
 // LES DONNÉES
 $ring1 = array("black"=>0,"brown"=>1,"red"=>2,"orange"=>3,"yellow"=>4,"green"=>5,"blue"=>6,"violet"=>7,"grey"=>8,"white"=>9);
 $ring2 = array("black"=>0,"brown"=>2,"red"=>2,"orange"=>3,"yellow"=>4,"green"=>5,"blue"=>6,"violet"=>7,"grey"=>8,"white"=>9);
@@ -6,11 +7,16 @@ $ring3 = array("black"=>1,"brown"=>10,"red"=>100,"orange"=>1000,"yellow"=>10000,
 $ring4 = array("brown"=>1,"red"=>2,"green"=>0.5,"blue"=>0.25,"violet"=>0.10,"grey"=>0.05,"gold"=>5,"silver"=>10);
 
 // RECUPÉRER LE  FORM
+if(isset($_GET["color1"])){
+    $first = $_GET["color1"];
+} else {
+    $first = 0;
+}
 
-$first = $_GET["color1"];
-$second = $_GET["color2"];
-$third = $_GET["color3"];
-$fourth = $_GET["color4"];
+$first = $_GET["color1"] ?? 0;
+$second = $_GET["color2"] ?? 0;
+$third = $_GET["color3"] ?? 0;
+$fourth = $_GET["color4"] ?? 0;
 
 // CALCULER LES VALEURS
 
