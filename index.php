@@ -75,16 +75,16 @@ function calc($first,$second,$third,$fourth){
             <section class="main_choiseContainer">
                 <form action="index.php" method="GET">
                     <select class="main_choiseContainer_color1" name="color1" id="color1-select">
-                        <option value="<?php echo $ring1["black"] ?>" >NOIR</option>
-                        <option value="<?php echo $ring1["brown"] ?>">BRUN</option>
-                        <option value="<?php echo $ring1["red"] ?>">ROUGE</option>
-                        <option value="<?php echo $ring1["orange"] ?>">ORANGE</option>
-                        <option value="<?php echo $ring1["yellow"] ?>">JAUNE</option>
-                        <option value="<?php echo $ring1["green"] ?>">VERT</option>
-                        <option value="<?php echo $ring1["blue"] ?>">BLEU</option>
-                        <option value="<?php echo $ring1["violet"] ?>">VIOLET</option>
-                        <option value="<?php echo $ring1["grey"] ?>">GRIS</option>
-                        <option value="<?php echo $ring1["white"] ?>">BLANC</option>
+                        <option label="BLACK" value="<?php echo $ring1["black"] ?>" ></option>
+                        <option label="BROWN" value="<?php echo $ring1["brown"] ?>"></option>
+                        <option label="RED" value="<?php echo $ring1["red"] ?>"></option>
+                        <option label="ORANGE" value="<?php echo $ring1["orange"] ?>"></option>
+                        <option label="YELLOW" value="<?php echo $ring1["yellow"] ?>"></option>
+                        <option label="GREEN" value="<?php echo $ring1["green"] ?>"></option>
+                        <option label="BLUE" value="<?php echo $ring1["blue"] ?>"></option>
+                        <option label="VIOLET" value="<?php echo $ring1["violet"] ?>"></option>
+                        <option label="GREY" value="<?php echo $ring1["grey"] ?>"></option>
+                        <option label="WHITE" value="<?php echo $ring1["white"] ?>"></option>
                     </select>
                     <select class="main_choiseContainer_color2" name="color2" id="color2-select">
                         <option value="<?php echo $ring2["black"] ?>">NOIR</option>

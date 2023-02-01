@@ -8,15 +8,6 @@ const selectColor2 = document.querySelector(".main_choiseContainer_color2");
 const selectColor3 = document.querySelector(".main_choiseContainer_color3");
 const selectColor4 = document.querySelector(".main_choiseContainer_color4");
 
-// color1.style = "background-color: red";
-// color2.style = "background-color: red";
-// color3.style = "background-color: red";
-// color4.style = "background-color: red";
+color1.style.backgroundColor = selectColor1[0].label;
 
-function changeColor() {
-    if (selectColor1.value = 0) {
-        color1.style = "background-color: black;";
-    }
-}
-
-changeColor()
+console.log(selectColor1[0].label);
