@@ -31,58 +31,61 @@
             <div class="main_resistanceContainer__rightBranch"></div>
         </section>
             <section class="main_choiseContainer">
-            <select class="main_choiseContainer_color1" name="color1" id="color1-select">
-                <option value="">Sélectionnez une couleur</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-            <select class="main_choiseContainer_color2" name="color2" id="color2-select">
-                <option value="">Sélectionnez une couleur</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-            <select class="main_choiseContainer_color3" name="color3" id="color3-select">
-                <option value="">Sélectionnez une couleur</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-            <select class="main_choiseContainer_color4" name="color4" id="color4-select">
-                <option value="">Sélectionnez une couleur</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
+                <form action="" method="GET">
+                    <select class="main_choiseContainer_color1" name="color1" id="color1-select">
+                        <option value="">Sélectionnez une couleur</option>
+                        <option value="">NOIR</option>
+                        <option value="">BRUN</option>
+                        <option value="">ROUGE</option>
+                        <option value="">ORANGE</option>
+                        <option value="">JAUNE</option>
+                        <option value="">VERT</option>
+                        <option value="">BLEU</option>
+                        <option value="">VIOLET</option>
+                        <option value="">GRIS</option>
+                        <option value="">BLANC</option>
+                    </select>
+                    <select class="main_choiseContainer_color2" name="color2" id="color2-select">
+                        <option value="">Sélectionnez une couleur</option>
+                        <option value="">NOIR</option>
+                        <option value="">BRUN</option>
+                        <option value="">ROUGE</option>
+                        <option value="">ORANGE</option>
+                        <option value="">JAUNE</option>
+                        <option value="">VERT</option>
+                        <option value="">BLEU</option>
+                        <option value="">VIOLET</option>
+                        <option value="">GRIS</option>
+                        <option value="">BLANC</option>
+                    </select>
+                    <select class="main_choiseContainer_color3" name="color3" id="color3-select">
+                        <option value="">Sélectionnez une couleur</option>
+                        <option value="">NOIR</option>
+                        <option value="">BRUN</option>
+                        <option value="">ROUGE</option>
+                        <option value="">ORANGE</option>
+                        <option value="">JAUNE</option>
+                        <option value="">VERT</option>
+                        <option value="">BLEU</option>
+                        <option value="">VIOLET</option>
+                        <option value="">GRIS</option>
+                        <option value="">BLANC</option>
+                        <option value="">OR</option>
+                        <option value="">ARGENT</option>
+                    </select>
+                    <select class="main_choiseContainer_color4" name="color4" id="color4-select">
+                        <option value="">Sélectionnez une couleur</option>
+                        <option value="">BRUN</option>
+                        <option value="">ROUGE</option>
+                        <option value="">VERT</option>
+                        <option value="">BLEU</option>
+                        <option value="">VIOLET</option>
+                        <option value="">GRIS</option>
+                        <option value="">OR</option>
+                        <option value="">ARGENT</option>
+                    </select>
+                    <button type="submit">CALCULER</button>
+                </form>
         </section>
         <section class="main_valueContainer">
             <h2 class="main_valueContainer__title">Valeur de la résistance :</h2>
