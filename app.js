@@ -101,26 +101,19 @@ selectColor4.addEventListener("change", changeColor4)
 function changeColor4() {
     if(selectColor4.value == 1) {
         color4.style.backgroundColor = "brown"
-    }
-    if(selectColor4.value == 2) {
+    } if(selectColor4.value == 2) {
         color4.style.backgroundColor = "red"
-    }
-    if(selectColor4.value == 0.5) {
+    } if(selectColor4.value == 0.5) {
         color4.style.backgroundColor = "green"
-    }
-    if(selectColor4.value == 0.25) {
+    } if(selectColor4.value == 0.25) {
         color4.style.backgroundColor = "blue"
-    }
-    if(selectColor4.value == 0.10) {
+    } if(selectColor4.value == 0.10) {
         color4.style.backgroundColor = "violet"
-    }
-    if(selectColor4.value == 0.05) {
+    } if(selectColor4.value == 0.05) {
         color4.style.backgroundColor = "grey"
-    }
-    if(selectColor4.value == 5) {
+    } if(selectColor4.value == 5) {
         color4.style.backgroundColor = "gold"
-    }
-    if(selectColor4.value == 10) {
+    } if(selectColor4.value == 10) {
         color4.style.backgroundColor = "silver"
     }
 }

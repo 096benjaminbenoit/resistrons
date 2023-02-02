@@ -133,5 +133,4 @@ function calc($first,$second,$third,$fourth){
     <script src="app.js"></script>
 </body>
 </html>
-
 <?php
